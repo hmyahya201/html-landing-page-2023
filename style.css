@@ -50,6 +50,7 @@
     color: #FFFFFF;
     background-color: #F15B22;
     padding: 20px 26px;
+    cursor: pointer;
     border: none;
     border-radius: 5px;
 }
@@ -146,4 +147,97 @@ section{
     font-size: 25px;
     line-height: 29px;
     color: #737272;
+}
+
+/* planning section style */
+
+.position-section{
+    margin-bottom: 140px;
+}
+.position-container{
+    background-image: url('./images/watch.png');
+    padding: 59px 64px;
+    border-radius: 10px;
+}
+.position_title{
+    width: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+/* footer section style */
+.footer-section{
+    background: #151414;
+}
+.footer-sec-container{
+    padding: 130px 8%;
+    color: white;
+    display: flex;
+    gap: 301px;
+}
+.footer-sec_content-box{
+    width: 60%;
+}
+.footer-sec_future-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.footer-sec_future-dic, .footer-sec_email, .footer-sec_phone{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.media-box{
+    margin-left: -8px;
+}
+.media-box a{
+    text-decoration: none;
+    padding:0 8px;
+}
+.footer-newsletter{
+    width: 40%;
+    text-align: left;
+}
+.footer-newsletter_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 31px;
+}
+input{
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #fff; 
+    margin-bottom: 16px; 
+}
+input:focus{
+    outline: none;
+}
+.submit-btn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 36px;
+    cursor: pointer;
+    background: #fff;
+    color:#F15B22;
 }
