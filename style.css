@@ -108,3 +108,42 @@ section{
  font-size: 16px;
  margin-right: 8px;
 }
+
+/**** planning-section ****/
+
+.planning-sec-container{
+    text-align: center;
+}
+.planning-sec-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 57px;
+}
+.planning-sec-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 86px;
+}
+.planning-sec-content-box_img{
+    max-width: 100%;
+    margin-bottom: 18px;
+}
+.planning-sec-content-box_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.planning-sec-content-box-info{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
