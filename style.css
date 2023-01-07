@@ -156,17 +156,35 @@ section{
 }
 .position-container{
     background-image: url('./images/watch.png');
-    padding: 59px 64px;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 10px;
+    position: relative;
+}
+.position_cntent-box{
+    position: absolute;
+    background-image: url('./images/gradient2.png');
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
 }
 .position_title{
     width: 50%;
+    padding-top: 59px;
+    padding-left: 64px;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #fff;
     margin-bottom: 24px;
+}
+.gradient-sec_btn{
+    margin-left: 64px;
 }
 
 /* footer section style */
@@ -230,6 +248,13 @@ input[type="email"]{
 }
 input:focus{
     outline: none;
+}
+input::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
 }
 .submit-btn{
     font-style: normal;
