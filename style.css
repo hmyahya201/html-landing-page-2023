@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+/***** header-part style *****/
+
 .header{
     width: 100%;
     height: 100vh;
@@ -49,4 +52,59 @@
     padding: 20px 26px;
     border: none;
     border-radius: 5px;
+}
+
+/***** main-part style *****/
+.main{
+    margin: 0 8%;
+    background-color: #fff;
+}
+
+/**** failure-section style ****/
+section{
+    margin-top: 140px;
+}
+.failure-sec-container{
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+.failure-sec-img{
+    max-width: 100%;
+    width: 50%;
+}
+.failure-sec-details-part{
+    width: 35%;
+    margin-top: 100px;
+}
+.failure-sec_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failure-sec-description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px
+}
+.failure-sec-failure-list{
+    margin-top: 16px;
+}
+.failure-sec-failure-list li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.failure-sec-failure-list i{
+ color: #16D887;
+ font-size: 16px;
+ margin-right: 8px;
 }
