@@ -56,9 +56,61 @@
 }
 
 /***** main-part style *****/
+
 .main{
     margin: 0 8%;
     background-color: #fff;
+}
+
+/**** success-section style ****/
+.success-sec-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.success-sec_left-part{
+    margin-top: 100px;
+    width: 50%;
+}
+.success-sec_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+    padding-right: 30px;
+}
+.success-sec_description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px
+}
+.success-sec_success-list{
+    margin-top: 16px;
+}
+.success-sec_success-list li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.success-sec_success-list li i{
+    color: #16D887;
+    font-size: 16px;
+    margin-right: 8px;
+}
+.success-right-part{
+    width: 50%;
+}
+.success-sec-img{
+    transform: scaleX(-1);
+    max-width: 100%;
 }
 
 /**** failure-section style ****/
